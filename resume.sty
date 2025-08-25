@@ -10,6 +10,7 @@
 % \usepackage{CormorantGaramond}
 % \usepackage{charter}
 \usepackage[dvipsnames]{xcolor}
+\usepackage{ragged2e}
 
 
 \pagestyle{fancy}
@@ -80,5 +81,7 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}\justifying}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeEnumListStart}{\begin{enumerate}\justifying}
+\newcommand{\resumeEnumListEnd}{\end{enumerate}\vspace{-5pt}}
